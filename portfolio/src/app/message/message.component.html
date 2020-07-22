@@ -1,0 +1,18 @@
+<nav>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="/home" class="nav-link">Back home</a>
+        </li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="card" *ngFor="let msg of messages">
+        <div class="card-header">
+            <img src="http://via.placeholder.com/80" alt="profile">
+            <span *ngIf="msg.email">{{msg.email}}</span>
+        </div>
+        <div class="card-body">
+            <p>{{msg.content}}</p>
+        </div>
+    </div>
+</div>

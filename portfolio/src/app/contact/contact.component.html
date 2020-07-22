@@ -1,0 +1,66 @@
+<div class="head-dev contact-head">
+    <p>Me contacter</p>
+</div>
+<div class="contact">        
+    <div class="left-contact">
+        <div class="right-nav-contact">
+            <div class="content-right-nav">
+                <div class="item-nav">
+                    <a href="#"><img src="/assets/icons/linkedin.png" alt="linkedin"></a>
+                </div>
+                <div class="item-nav rmail">
+                    <a href="#"><img src="/assets/icons/mail.png" alt="mcolo.miftahou@gmail.com"></a>
+                </div>
+                <div class="item-nav">
+                    <a href="#"><img src="/assets/icons/github.png" alt="skype"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright Miftahou MCOLO 2020</p>
+        </div>
+    </div>
+    <div class="right-contact">
+        <div class="top-right-contact">
+            <p>
+                Vous pouvez remplire le champs "Contact" avec un adresse mail ou un numéro de téléphone.<br>
+                Dans le cas ou vous attendez un réponse de ma part. <br>
+                <span>Les informations et les messages ne seront pas conservés</span>
+            </p>
+        </div>
+        <div class="form">
+            <h2>Contact</h2>
+            <form [formGroup]="commentForm" (ngSubmit)="onSubmitForm()">
+                <input type="text" id="email" placeholder="exemple@gmail.com" formControlName="email">
+                <textarea class="message" id="content" placeholder="Message" formControlName="content"></textarea>
+
+                <div class="form-button">
+                    <button class="btnSubmit" type="submit">Envoyer</button>
+                    <button class="btnClear" (click)="clearForm">Effacer</button>
+                </div>
+            </form>
+        </div>
+        <div class="reseau">
+            <div class="item-reseau">
+                <a href="#">
+                    <img src="/assets/icons/rFacebook.png" alt="Miftahou MCOLO">
+                </a>
+            </div>
+            <div class="item-reseau">
+                <a href="#">
+                    <img src="/assets/icons/rSnap.png" alt="Miftahou MCOLO">
+                </a>
+            </div>
+            <div class="item-reseau">
+                <a href="#">
+                    <img src="/assets/icons/rTwitter.png" alt="Miftahou MCOLO">
+                </a>
+            </div>
+            <div class="item-reseau">
+                <a href="#">
+                    <img src="/assets/icons/rInstagram.png" alt="Miftahou MCOLO">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

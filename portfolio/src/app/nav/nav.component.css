@@ -1,0 +1,31 @@
+.nav-bar{
+    height: 40px;
+    background-color: rgba(182, 182, 182, 0.705);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.top-left-nav{
+    width: 400px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline;
+}
+.top-left-nav>.item-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-nav>img{
+    width: 30px;
+    height: 20px;
+}
+/*Beafor: max-width: 500px*/
+@media (max-width: 800px){
+    /*Page one*/
+    .nav-bar .top-left-nav{ width: 100%;}
+}

@@ -1,0 +1,68 @@
+/*/////////////////////////////////////////////////////
+Realisation ////////////////////////////////////
+////////////////////////////////////////////*/
+
+/*///////////////Head////////////////*/
+.real-head{
+    background-image: url('/assets/backgrounds/rose-gold.png');
+    background-position: bottom;
+    display: inline-block;
+}
+.real-head p{
+    margin-top:25px;
+    font-weight: 100;
+    color: rgb(65, 65, 65);
+    border-color: rgb(65, 65, 65);
+}
+/*///////////////real body///////////////*/
+.real{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -125px auto 0 auto;
+    text-align: center;
+}
+.real-illustre img{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto 0 auto;
+}
+.real-grid{
+    width: 75%;
+    height: 625px;
+    margin: 0 auto;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grid-item{
+    width: 450px;
+    height: 250px;
+    background-color: black;
+}
+.pagination a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: grey;
+}
+.pagination a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.pagination{
+    margin: 50px auto;
+}
+/*Beafor: max-width: 500px*/
+@media (max-width: 800px){
+    /*Section real*/
+    .real-grid{width: 95%; height: auto;background: none;}
+    .real-grid .grid-item{width: 100%; margin: 20px 0;}
+}
+@media (max-width: 500px){
+    .real-illustre img{
+        width: 100%;
+    }
+}
