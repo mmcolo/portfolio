@@ -39,7 +39,7 @@ Realisation ////////////////////////////////////
     flex-wrap: wrap;
 }
 .grid-item{
-    width: 450px;
+    width: 350px;
     height: 250px;
     background-color: black;
 }
@@ -56,7 +56,7 @@ Realisation ////////////////////////////////////
     margin: 50px auto;
 }
 /*Beafor: max-width: 500px*/
-@media (max-width: 800px){
+@media (max-width: 1200px){
     /*Section real*/
     .real-grid{width: 95%; height: auto;background: none;}
     .real-grid .grid-item{width: 100%; margin: 20px 0;}

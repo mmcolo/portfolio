@@ -43,6 +43,8 @@
     justify-content: flex-end;
 }
 .form{
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,5 +128,7 @@ form .btnSubmit:hover{
     .item-reseau img{width: 65px; height: 65px;}
     .left-contact{width: 100%;height: max-content;padding: 15px 10px; margin: 0 auto;}
     .copyright{width: 100%; height: max-content; text-align: center;}
-    .right-nav-contact{}
+    .reseau{
+        max-width: 600px;
+    }
 }
