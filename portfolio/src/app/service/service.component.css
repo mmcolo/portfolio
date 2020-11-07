@@ -71,7 +71,7 @@
     align-items: center;
 }
 .niveau-js{
-    width: 250px;
+    width: 450px;
     display: flex;
     align-items: center;
 }
@@ -195,7 +195,7 @@ button .icon-cv img{width: 30px; height: 30px;margin: 0 auto;}
     .lang-item{width: 90%;}
     .niveau-html{width: 85%;}
     .niveau-php{width: 80%;}
-    .niveau-js{width: 50%;}
+    .niveau-js{width: 85%;}
     .niveau-sql{width: 65%;}
     .niveau-sharp{width: 85%;}
     /*Section designer*/
